@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN NAMES</title>
+</head><link rel="stylesheet" href="style.css">
+<body class="sam">
+<script src="index.js"></script>
+    <div class="sam">
+<h1 class="head">AKAN NAMES </h1>
+<p class="paragraph">Children of akan people of ghana,togo and ivory coast are often given names which are based on the day of the week they are born.These day name have additional meanings conserning the 'kra'which is the soul,personality and character of the person.In the akan tradition. it is believed that every child comes into this world with a name which is part of there soul, and the soul determines the day they want to come into this world  </p>
+<h2 class="head2"> ABOUT THIS APP</h2>
+<p class="paragraph2">This is a web application that takes a user's birthday and calculates the day of the week they were born also depending on their  gender then it  outputs there akan names.</p>
+
+
+
+
+<form id="nameGeneratorForm" method="POST" onSubmit="submitFunction(event)">
+<div class="form-group row">
+<label for="Year" class="col-md-2 col-form-label">Year of Birth</label>
+<div class="col-md-5">
+  <input type="number" class="form-control" id="year" min="1900" max="2100" required>
+</div>
+</div>
+<div class="form-group row">
+<label for="month" class="col-md-2 col-form-label">Month</label>
+<div class="col-md-5">
+  <input type="number" class="form-control" id="month" min="1"  max="12" required>
+</div>
+</div>
+<div class="form-group row">
+<label for="day" class="col-md-2 col-form-label">Day</label>
+<div class="col-md-5">
+  <input type="number" class="form-control" id="day" min="1" max="31" required>
+</div>
+<fieldset class="form-group row">
+<label>Select Gender</label> <br />
+<select id="gender">
+  <option value="select-gender">select gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select>
+<div class="col-md-10">
+  <div class="form-check">
+    
+  </div>
+</div>
+</fieldset>
+<div class="form-group row">
+<div class="col-md-10">
+  <button onclick= "generateAkan()" type="button" id = submit class="btn btn-primary">Generate  </button>
+</div>
+</div>
+</form>
+
+</div>
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>

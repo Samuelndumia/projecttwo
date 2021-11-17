@@ -1,0 +1,22 @@
+body{
+    background-color: darkslategrey;
+
+}
+.sam{
+text-align: center;
+}
+.head{
+    background-color: darkolivegreen;
+    font-style: italic;
+    text-shadow: 2px 
+}
+.paragraph{
+    font-style: oblique;
+
+}
+.head2{
+    font-style: italic;
+}
+.paragraph2{
+    font-style: oblique;
+}
